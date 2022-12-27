@@ -1,0 +1,48 @@
+body {
+  color: #333;
+  margin: 0 200px;
+}
+
+header {
+  justify-content: flex-end;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  margin-right: 70px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.imgFace {
+  width: 175px;
+  height: 175px;
+}
+
+.aboutContent {
+  display: flex;
+}
+
+.aboutDetail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 50px;
+}
+
+.aboutDetail p {
+  font-size: 15px;
+  margin: 3px 0;
+}
+
+.aboutDetail span {
+  font-weight: bold;
+}
